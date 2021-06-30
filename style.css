@@ -1,51 +1,58 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'PT Sans', sans-serif;
 }
-nav{
+
+nav {
     background-color: black;
 }
-nav ul{
+
+nav ul {
     display: flex;
     flex-flow: row;
-    align-items:center;
+    align-items: center;
     justify-content: flex-end;
     align-content: space-around;
     list-style: none;
 }
-nav ul li{
-    
+
+nav ul li {
     padding: 40px;
     padding-right: 100px;
     padding-left: 100px;
 }
-nav ul li:hover{
-    background-color:darkslategrey;
-}
-nav ul li#logo:hover{
-    background-color:black ;
 
+nav ul li:hover {
+    background-color: darkslategrey;
 }
-nav ul li a{
+
+nav ul li#logo:hover {
+    background-color: black;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: larger;
 }
-nav ul li#logo{
+
+nav ul li#logo {
     padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0;
     padding-right: 40px;
     align-self: flex-start;
 }
-main h1{
+
+main h1 {
     text-align: center;
     color: #EC576B;
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
 }
-main article{
+
+main article {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 100px;
@@ -54,44 +61,52 @@ main article{
     align-items: center;
     justify-content: space-around;
 }
-main article div{
+
+main article div {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
 }
-main article div h1{
+
+main article div h1 {
     text-align: left;
     color: #EC576B;
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
 }
-main article img{
+
+main article img {
     width: 400px;
 }
-main article div p{
+
+main article div p {
     font-size: medium;
-    
 }
-footer{
-    background-color: black; 
-    padding: 10px;  
+
+footer {
+    background-color: black;
+    padding: 10px;
 }
-footer div#redes{
+
+footer div#redes {
     text-align: end;
 }
-main div.membros{
+
+main div.membros {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-main div.membros img{
+
+main div.membros img {
     border: #EC576B solid 1px;
     border-radius: 100%;
     width: 200px;
 }
-main div.sobre{
+
+main div.sobre {
     display: flex;
     flex-direction: row;
     margin: 50px;
