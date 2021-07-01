@@ -31,7 +31,7 @@ nav ul li#logo:hover {
     background-color: black;
 }
 
-nav ul li a {
+nav ul a {
     color: white;
     text-decoration: none;
     font-size: larger;
